@@ -4,90 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Solar City Apo | Adagache Homes</title>
-  
-  <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
-  
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
-<!-- FLOATING WHATSAPP BUTTON -->
-<a href="https://wa.me/2348030702010?text=Hi%20Adagache%20Homes,%20I'm%20interested%20in%20Solar%20City%20Apo" class="floating-wa" target="_blank" id="waFloatBtn">
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/2348030702010?text=Hi%20Adagache%20Homes,%20I'm%20interested%20in%20Solar%20City%20Apo" class="floating-wa" target="_blank">
   <i class="fab fa-whatsapp"></i>
 </a>
 
-<!-- MODAL FOR PLOT SELECTION -->
+<!-- MODAL -->
 <div class="modal-overlay" id="leadModal">
   <div class="modal-window">
     <button class="modal-close" id="closeModalBtn">&times;</button>
-    <h3 class="gold-text" id="modalPlotTitle">170 SQM Plot</h3>
-    <p>Select your preferred transaction model to proceed via WhatsApp:</p>
+    <h3 class="gold-text" id="modalPlotTitle">Plot Option</h3>
+    <p style="color:var(--muted);margin:12px 0 0;">Select your preferred transaction model to proceed via WhatsApp:</p>
     <div class="modal-options">
       <button class="modal-opt-btn" data-payment="Outright Purchase">
         <i class="fas fa-bolt"></i>
-        <div>
-          <strong>Outright Capital Payment</strong>
-          <span>Secure standard pricing immediately</span>
-        </div>
+        <div><strong>Outright Capital Payment</strong><span>Secure standard pricing immediately</span></div>
       </button>
       <button class="modal-opt-btn" data-payment="Structured Installment">
         <i class="fas fa-calendar-alt"></i>
-        <div>
-          <strong>Structured Installments Plan</strong>
-          <span>Review tailored timeline payment windows</span>
-        </div>
+        <div><strong>Structured Installments Plan</strong><span>Review tailored timeline payment windows</span></div>
       </button>
     </div>
   </div>
 </div>
 
-<!-- HEADER WITH LOGO (images/logo.png) -->
+<!-- HEADER -->
 <header>
   <div class="nav-container">
-    <div class="logo-area">
-      <img src="images/logo.png" alt="Adagache Homes Logo" class="site-logo" id="siteLogo" onerror="this.src='https://placehold.co/180x60/111111/d4af37?text=ADAGACHE+HOMES'">
+    <a href="index (1).html" class="logo-area">
+      <img src="images/logo.png" alt="Adagache Homes Logo" class="site-logo" id="siteLogo"
+        onerror="this.src='https://placehold.co/180x60/111111/d4af37?text=ADAGACHE'">
       <div class="logo-text">
         <h1 class="gold-text">SOLAR CITY APO</h1>
         <p>BY ADAGACHE HOMES</p>
       </div>
-    </div>
+    </a>
+
     <button class="mobile-btn" id="mobileMenuBtn">
       <i class="fas fa-bars"></i>
     </button>
+
     <nav class="nav-links" id="navLinks">
+      <a href="index (1).html" class="active">Home</a>
       <a href="#plots">Plots</a>
       <a href="#calculator">Calculator</a>
       <a href="#features">Features</a>
       <a href="#location">Location</a>
       <a href="#about-ceo">CEO</a>
-      <a href="https://wa.me/2348030702010" class="nav-btn" target="_blank">Secure Plot</a>
+      <!-- Sister Companies -->
+      <a href="oil-gas.html"><i class="fas fa-fire-flame-curved" style="color:var(--gold);font-size:0.75rem;"></i> Oil & Gas</a>
+      <a href="travel.html"><i class="fas fa-plane" style="color:var(--gold);font-size:0.75rem;"></i> Travel</a>
+      <a href="integrated.html"><i class="fas fa-globe" style="color:var(--gold);font-size:0.75rem;"></i> Integrated</a>
+      <a href="autos.html"><i class="fas fa-car" style="color:var(--gold);font-size:0.75rem;"></i> Autos</a>
+      <a href="https://wa.me/2348030702010" class="nav-btn" target="_blank"><i class="fab fa-whatsapp"></i> Secure Plot</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
   <div class="hero-content">
     <div>
       <div class="badge">
-        <i class="fas fa-certificate"></i>
-        FCDA CERTIFICATE OF OCCUPANCY
+        <i class="fas fa-certificate"></i> FCDA CERTIFICATE OF OCCUPANCY
       </div>
       <h2>
         <span class="gold-text">SMART</span><br>
         LUXURY<br>
         LIVING
       </h2>
-      <p>
-        Invest in Abuja's next premium smart city destination. Solar City Apo combines luxury living, sustainability, prestige, and exceptional long-term investment growth.
-      </p>
+      <p>Invest in Abuja's next premium smart city destination. Solar City Apo combines luxury living, sustainability, prestige, and exceptional long-term investment growth.</p>
       <div class="hero-stats">
         <div class="stat-box glass">
           <h3 class="gold-text">87%</h3>
@@ -126,7 +120,7 @@
   </div>
 </section>
 
-<!-- PLOTS SECTION -->
+<!-- PLOTS -->
 <section class="section" id="plots">
   <div class="container">
     <div class="section-head">
@@ -138,8 +132,8 @@
   </div>
 </section>
 
-<!-- CALCULATOR SECTION -->
-<section class="section" id="calculator" style="background: #0d0d0d; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+<!-- CALCULATOR -->
+<section class="section" id="calculator" style="background:#0d0d0d;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
   <div class="container">
     <div class="section-head">
       <small>Flexible Financing</small>
@@ -155,11 +149,7 @@
         <div class="input-group">
           <label>Minimum Down Payment: <span id="depositPercentText">30%</span></label>
           <input type="range" id="depositRange" min="30" max="80" step="10" value="30">
-          <div class="range-labels">
-            <span>30%</span>
-            <span>50%</span>
-            <span>80%</span>
-          </div>
+          <div class="range-labels"><span>30%</span><span>50%</span><span>80%</span></div>
         </div>
         <div class="input-group">
           <label for="durationSelect">Payment Term</label>
@@ -183,15 +173,15 @@
           <span>Balance Remaining:</span>
           <span id="resBalance">₦0.00</span>
         </div>
-        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 15px 0;">
+        <hr style="border:0;border-top:1px solid rgba(255,255,255,0.1);margin:15px 0;">
         <div class="result-row execution">
           <div>
             <strong>Monthly Payment:</strong>
-            <p style="font-size: 0.8rem; color: var(--muted); margin: 0;">For chosen duration</p>
+            <p style="font-size:0.8rem;color:var(--muted);margin:0;">For chosen duration</p>
           </div>
-          <span id="resMonthly" class="gold-text" style="font-size: 2rem; font-weight: 900;">₦0.00</span>
+          <span id="resMonthly" class="gold-text" style="font-size:2rem;font-weight:900;">₦0.00</span>
         </div>
-        <a href="#" id="calcWhatsAppBtn" target="_blank" class="primary-btn" style="width: 100%; justify-content: center; margin-top: 20px; border-radius: 14px;">
+        <a href="#" id="calcWhatsAppBtn" target="_blank" class="primary-btn" style="width:100%;justify-content:center;margin-top:20px;border-radius:14px;">
           <i class="fab fa-whatsapp"></i> Propose This Payment Plan
         </a>
       </div>
@@ -199,7 +189,7 @@
   </div>
 </section>
 
-<!-- FEATURES SECTION -->
+<!-- FEATURES -->
 <section class="section" id="features" style="background:#090909;">
   <div class="container">
     <div class="section-head">
@@ -211,17 +201,17 @@
   </div>
 </section>
 
-<!-- LOCATION SECTION -->
+<!-- LOCATION -->
 <section class="section" id="location">
   <div class="container">
     <div class="location-grid">
       <div class="location-text">
-        <div class="section-head" style="text-align:left; margin-bottom:40px;">
+        <div class="section-head" style="text-align:left;margin-bottom:40px;">
           <small>Prime Location</small>
           <h2>Located In Apo, <span class="gold-text">Burum West District</span></h2>
         </div>
-        <p>Strategically positioned within Abuja's rapidly developing luxury corridor with direct accessibility to major commercial and residential districts.</p>
-        <div class="location-stats">
+        <p style="color:var(--muted);line-height:1.85;">Strategically positioned within Abuja's rapidly developing luxury corridor with direct accessibility to major commercial and residential districts.</p>
+        <div class="location-stats" style="display:flex;flex-wrap:wrap;gap:16px;margin-top:24px;">
           <div class="location-box glass">
             <h3 class="gold-text">12min</h3>
             <p>To Central Area</p>
@@ -242,8 +232,53 @@
   </div>
 </section>
 
-<!-- ABOUT CEO SECTION (images/about.png) -->
-<section class="section" id="about-ceo" style="background: linear-gradient(145deg, #030303 0%, #0a0a0a 100%);">
+<!-- SISTER COMPANIES SECTION -->
+<section class="section" style="background:#080808;border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head">
+      <small>The Adagache Group</small>
+      <h2>Our <span class="gold-text">Sister Companies</span></h2>
+      <p>A diversified group of premium companies delivering excellence across multiple industries in Nigeria and beyond.</p>
+    </div>
+    <div class="services-grid">
+      <a href="oil-gas.html" style="text-decoration:none;">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-fire-flame-curved" style="color:var(--gold);"></i></div>
+          <h3 class="gold-text">Adagache Oil & Gas</h3>
+          <p>Premium energy solutions delivering reliable petroleum products, gas supply, and energy infrastructure services across Nigeria.</p>
+          <div style="margin-top:20px;color:var(--gold);font-weight:700;font-size:0.85rem;">Explore Division <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </a>
+      <a href="travel.html" style="text-decoration:none;">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-plane" style="color:var(--gold);"></i></div>
+          <h3 class="gold-text">Adagache Travels & Tours</h3>
+          <p>World-class travel experiences, luxury tour packages, visa consultations, and premium flight bookings tailored to every destination.</p>
+          <div style="margin-top:20px;color:var(--gold);font-weight:700;font-size:0.85rem;">Explore Division <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </a>
+      <a href="integrated.html" style="text-decoration:none;">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-globe" style="color:var(--gold);"></i></div>
+          <h3 class="gold-text">Adagache Integrated Global</h3>
+          <p>The flagship holding company driving strategy, partnerships, and global expansion across all Adagache Group business divisions.</p>
+          <div style="margin-top:20px;color:var(--gold);font-weight:700;font-size:0.85rem;">Explore Division <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </a>
+      <a href="autos.html" style="text-decoration:none;">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fas fa-car" style="color:var(--gold);"></i></div>
+          <h3 class="gold-text">Adagache Autos</h3>
+          <p>Premium automobile dealership offering new and pre-owned luxury vehicles, financing solutions, and after-sale services.</p>
+          <div style="margin-top:20px;color:var(--gold);font-weight:700;font-size:0.85rem;">Explore Division <i class="fas fa-arrow-right"></i></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CEO -->
+<section class="section" id="about-ceo" style="background:linear-gradient(145deg,#030303 0%,#0a0a0a 100%);">
   <div class="container">
     <div class="ceo-wrapper">
       <div class="ceo-tag">
@@ -251,9 +286,10 @@
       </div>
       <div class="ceo-grid">
         <div class="ceo-image-card">
-          <img src="images/about.png" alt="CEO John Abbah Adagache" id="ceoImage" onerror="this.src='https://placehold.co/800x1000/1a1a1a/d4af37?text=CEO+Photo+Jblingz'">
+          <img src="images/about.png" alt="CEO John Abbah Adagache" id="ceoImage"
+            onerror="this.src='https://placehold.co/800x1000/1a1a1a/d4af37?text=CEO+Jblingz'">
           <div class="image-accent"></div>
-          <div class="img-caption"><i class="fas fa-camera"></i> John Abbah Adagache (Jblingz Adagache) | Entrepreneur & Visionary</div>
+          <div class="img-caption"><i class="fas fa-camera"></i> John Abbah Adagache (Jblingz) | Entrepreneur & Visionary</div>
         </div>
         <div class="ceo-content">
           <h1 class="ceo-name gold-text">John Abbah Adagache</h1>
@@ -262,7 +298,7 @@
           <div class="pillars" id="pillarsList"></div>
           <div class="brand-badges">
             <span class="brand-badge"><i class="fas fa-envelope"></i> Adagachehomes@gmail.com</span>
-            <span class="brand-badge"><i class="fas fa-map-marker-alt"></i> Flat F, Block 8 Eman Estate, Katampe main, Abuja</span>
+            <span class="brand-badge"><i class="fas fa-map-marker-alt"></i> Flat F, Block 8 Eman Estate, Katampe Main, Abuja</span>
           </div>
           <div class="social-quote">
             <div class="ceo-social-links">
@@ -271,19 +307,21 @@
               <a href="https://tiktok.com/@adagachehomes" target="_blank"><i class="fab fa-tiktok"></i></a>
               <a href="https://wa.me/2348030702010" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <div class="quote-mini"><i class="fas fa-quote-left" style="color: var(--gold);"></i> Legacy, excellence & global impact</div>
+            <div class="quote-mini"><i class="fas fa-quote-left" style="color:var(--gold);"></i> Legacy, excellence & global impact</div>
           </div>
           <div class="ceo-action">
-            <a href="https://wa.me/2348030702010?text=Hello%20Mr.%20John%20Adagache,%20I%20read%20your%20profile%20and%20would%20like%20to%20connect" target="_blank" class="connect-btn"><i class="fab fa-whatsapp"></i> Connect with CEO</a>
+            <a href="https://wa.me/2348030702010?text=Hello%20Mr.%20John%20Adagache,%20I%20read%20your%20profile%20and%20would%20like%20to%20connect" target="_blank" class="connect-btn">
+              <i class="fab fa-whatsapp"></i> Connect with CEO
+            </a>
           </div>
-          <div style="margin-top: 5px; font-size: 0.75rem; color: var(--muted);">Instagram: @adagachehomes | Facebook: @adagachehomes | TikTok: @adagachehomes</div>
+          <div style="margin-top:8px;font-size:0.72rem;color:var(--muted);">Instagram: @adagachehomes | Facebook: @adagachehomes | TikTok: @adagachehomes</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CTA SECTION -->
+<!-- CTA -->
 <section class="section">
   <div class="container">
     <div class="cta-section glass">
@@ -293,27 +331,37 @@
         <p>Solar City Apo combines luxury, sustainability, prestige, and investment growth into one extraordinary smart estate experience.</p>
       </div>
       <div class="cta-actions">
-        <a href="https://wa.me/2348030702010?text=Hi%20Adagache%20Homes,%20I%20want%20to%20book%20an%20inspection" target="_blank" class="primary-btn"><i class="fab fa-whatsapp"></i> Book Inspection</a>
+        <a href="https://wa.me/2348030702010?text=Hi%20Adagache%20Homes,%20I%20want%20to%20book%20an%20inspection" target="_blank" class="primary-btn">
+          <i class="fab fa-whatsapp"></i> Book Inspection
+        </a>
         <a href="tel:08030702010" class="secondary-btn"><i class="fas fa-phone"></i> Call 08030702010</a>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer id="contact">
   <div class="footer-container">
     <div class="footer-brand">
-      <h2 class="gold-text">SOLAR CITY APO</h2>
+      <h2 class="gold-text">ADAGACHE GROUP</h2>
       <p>LUXURY • SMART LIVING • HIGH RETURNS</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Adagache Homes</a>
+      <a href="oil-gas.html">Oil & Gas</a>
+      <a href="travel.html">Travels & Tours</a>
+      <a href="integrated.html">Integrated Global</a>
+      <a href="autos.html">Autos</a>
     </div>
     <div class="footer-contact">
       <a href="https://instagram.com/adagachehomes" class="instagram" target="_blank"><i class="fab fa-instagram"></i> @adagachehomes</a>
+      <a href="mailto:Adagachehomes@gmail.com" style="color:var(--muted);font-size:0.85rem;">Adagachehomes@gmail.com</a>
       <a href="tel:08030702010" class="phone">08030702010</a>
     </div>
   </div>
 </footer>
 
-<!-- External JavaScript -->
 <script src="script.js"></script>
 </body>
 </html>
